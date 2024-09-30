@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    public Main() {
+public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int ejercicio;
         do {
@@ -27,6 +27,7 @@ public class Main {
                 case 4:
                     break;
                 case 5:
+                    Ejercicio5.Ej5(scanner);
                     break;
                 case 0:
                     break;
@@ -37,7 +38,4 @@ public class Main {
 
         } while (ejercicio != 0);
     }
-public static void main(String[] args) {
-    new Main();
-}
 }
