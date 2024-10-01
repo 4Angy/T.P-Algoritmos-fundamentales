@@ -10,7 +10,7 @@ public static void main(String[] args) {
                     "1)Ejercicio 1 (). \n" +
                             "2)Ejercicio 2 (). \n" +
                             "3)Ejercicio 3 (). \n" +
-                            "4)Ejercicio 4 (). \n" +
+                            "4) Ejercicio 4 Selección de ordenamiento en matriz de 20 elementos. \n" +
                             "5)Ejercicio 5 (). \n" +
                             "0)Salir ");
             ejercicio = scanner.nextInt();
@@ -25,6 +25,8 @@ public static void main(String[] args) {
                 case 3:
                     break;
                 case 4:
+                    ejercicio4.carga_elementos(scanner);
+                    ejercicio4.menu_seleccion(scanner);
                     break;
                 case 5:
                     Ejercicio5.Ej5(scanner);
