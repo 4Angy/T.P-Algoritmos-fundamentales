@@ -19,6 +19,7 @@ public class Main {
             switch (ejercicio) {
 
                 case 1:
+                    ejercicio1.eje1(scanner);
                     break;
                 case 2:
                     break;
