@@ -7,12 +7,12 @@ public static void main(String[] args) {
         do {
             System.out.println("Ingrese la opcion:");
             System.out.println(
-                    "1)Ejercicio 1 (). \n" +
-                            "2)Ejercicio 2 (). \n" +
-                            "3)Ejercicio 3 (). \n" +
-                            "4) Ejercicio 4 Selección de ordenamiento en matriz de 20 elementos. \n" +
-                            "5)Ejercicio 5 (). \n" +
-                            "0)Salir ");
+                    "1) Ejercicio 1 (No implementado). \n" +
+                            "2) Ejercicio 2 (Algoritmo de Inserción). \n" +
+                            "3) Ejercicio 3 (Algoritmo ASC DESC). \n" +
+                            "4) Ejercicio 4 (Selección de ordenamiento en matriz de 20 elementos). \n" +
+                            "5) Ejercicio 5 (Matriz de 2 enteros). \n" +
+                            "0) Salir ");
             ejercicio = scanner.nextInt();
             scanner.nextLine();
 
@@ -25,8 +25,6 @@ public static void main(String[] args) {
                 case 3:
                     break;
                 case 4:
-                    ejercicio4.carga_elementos(scanner);
-                    ejercicio4.menu_seleccion(scanner);
                     break;
                 case 5:
                     Ejercicio5.Ej5(scanner);
