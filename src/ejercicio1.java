@@ -10,7 +10,7 @@ public class  ejercicio1 {
             System.out.println("1. Algoritmos de Ordenación");
             System.out.println("2. Algoritmos de Búsqueda");
             System.out.println("3. Algoritmos de Recorrido");
-            System.out.println("0. Salir");
+            System.out.println("0. Salir.");
 
             opcion = scanner.nextInt();
 
