@@ -10,7 +10,7 @@ public static void main(String[] args) {
                     "1) Ejercicio 1 (No implementado). \n" +
                             "2) Ejercicio 2 (Algoritmo de Inserción). \n" +
                             "3) Ejercicio 3 (Algoritmo ASC DESC). \n" +
-                            "4) Ejercicio 4 (Selección de ordenamiento en matriz de 20 elementos). \n" +
+                            "4) Ejercicio 4 (Selección de ordenamiento en matriz de 2 elementos). \n" +
                             "5) Ejercicio 5 (Matriz de 2 enteros). \n" +
                             "0) Salir ");
             ejercicio = scanner.nextInt();
